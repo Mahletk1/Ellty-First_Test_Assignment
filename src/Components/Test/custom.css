@@ -1,0 +1,103 @@
+.custom-shadow {
+  box-shadow: 0 8px 15px 0 #1414141f, 0 0 4px 0 #1414141a;
+}
+.custom-card {
+  width: 370px;
+  height: 326px;
+  /* padding: 10px 0; */
+  border-radius: 6px;
+  border-width: 1px;
+  opacity: 1;
+}
+.custom-padding {
+  padding: 8px 15px 8px 22px;
+}
+hr {
+  background: #cdcdcd;
+}
+.hrContainer {
+  height: 20px;
+  padding: 10px 15px;
+}
+.buttonContainer {
+  height: 60px;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+/* Button Hover state */
+.doneButton:hover {
+  background-color: #ffd84d;
+}
+
+/* Pressing state */
+.doneButton:active {
+  background-color: #ffce22;
+}
+
+/* Style for custom checkbox */
+.checkbox-label {
+  background-color: #ffffff;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  opacity: 0.6;
+}
+
+/* Hover state */
+.custom-checkbox:hover {
+  border-color: #bdbdbd;
+}
+
+/* Pressing state */
+.custom-checkbox:active {
+  border-color: #bdbdbd;
+  box-shadow: 0 0 3px #2469f6;
+}
+.custom-checkbox:active .checkmark {
+  color: #878787;
+}
+
+/* Checked state */
+.custom-checkbox.checked {
+  background: #5087f8;
+  border-color: #5087f8;
+}
+.custom-checkbox.checked .checkmark {
+  color: #fff;
+}
+
+/* Mouse move outside from checked state */
+.custom-checkbox.checked.moved-outside {
+  background-color: #2469f6;
+  border-color: #2469f6;
+}
+.custom-checkbox.checked.moved-outside {
+  color: #fff;
+}
+
+/* Checkmark styles */
+.checkmark {
+  color: #e3e3e3;
+}
+.checkmark path {
+  stroke-width: 1px;
+}
